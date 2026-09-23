@@ -29,3 +29,11 @@ a{color:inherit;text-decoration:none}a:hover{text-decoration:underline;text-unde
 @media print{.site-header,.skip-link,.actions,.back-top,.menu-toggle{display:none!important}body{background:white;font-size:11pt}.wrap{width:100%}.section{padding-block:24px}.hero{padding-block:20px}.hero h1{font-size:32px}.project{break-inside:avoid;box-shadow:none}.hero-visual{max-width:300px}.site-footer{border-top:1px solid #ccc}.preview,.credential-list li,.timeline li{break-inside:avoid}}
 
 
+
+/* Portrait integration: preserve the original photograph and prioritize the introduction. */
+.hero.hero-with-portrait{grid-template-columns:minmax(0,1.85fr) minmax(0,1fr);gap:48px}
+.hero-portrait{width:100%;max-width:380px;justify-self:end;padding:8px;background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:0 14px 36px #1c2e5110}
+.hero-portrait img{display:block;width:100%;height:auto;aspect-ratio:1254 / 1254;object-fit:cover;object-position:center;border-radius:11px}
+@media(max-width:850px){.hero.hero-with-portrait{grid-template-columns:1fr;gap:28px}.hero-portrait{width:min(100%,240px);justify-self:center}}
+@media(max-width:600px){.hero-portrait{width:min(100%,210px)}}
+@media print{.hero-portrait{max-width:220px;box-shadow:none}}
