@@ -37,3 +37,7 @@ a{color:inherit;text-decoration:none}a:hover{text-decoration:underline;text-unde
 @media(max-width:850px){.hero.hero-with-portrait{grid-template-columns:1fr;gap:28px}.hero-portrait{width:min(100%,240px);justify-self:center}}
 @media(max-width:600px){.hero-portrait{width:min(100%,210px)}}
 @media print{.hero-portrait{max-width:220px;box-shadow:none}}
+
+
+/* OpsPilot case study: scoped architecture diagram. */
+.op-architecture{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:24px}.op-architecture>div{padding:18px;border:1px solid var(--line);border-radius:8px;background:white;font-size:13px}.op-architecture>div::after{content:" ↓";color:var(--accent)}.op-architecture>div:last-child::after{content:""}.project-copy .actions .text-link{margin-top:0}@media(max-width:600px){.op-architecture{grid-template-columns:1fr}}
