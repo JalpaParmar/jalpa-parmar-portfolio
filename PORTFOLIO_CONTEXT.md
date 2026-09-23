@@ -262,10 +262,10 @@ Create:
 
 ---
 
-## Project 2 — ReviewPulse AI
+## Project 2 — ReviewPulse
 
 ### Positioning
-**Mobile Customer Review Intelligence & Product Insights**
+**Mobile Customer Feedback & Product Insights**
 
 Inspired by the general problem of analyzing mobile app feedback, but implemented independently.
 
@@ -310,8 +310,8 @@ Synthetic categories may include:
 
 ### Deliverables
 Create:
-- Python-based analysis or dashboard
-- Synthetic/public sample dataset
+- Static HTML/CSS/vanilla JavaScript dashboard (V1; no Python, backend, scraping or APIs)
+- Original synthetic review dataset
 - Dashboard screenshots
 - Case-study page
 - Product insights section
@@ -462,7 +462,7 @@ Use visually scannable groups:
 ## Featured Projects
 Prominent cards for:
 1. TriagePilot AI
-2. ReviewPulse AI
+2. ReviewPulse
 3. Delivery360
 4. Product Management Case Study
 
@@ -590,7 +590,7 @@ Codex should work incrementally.
 ### Phase 2 — TriagePilot AI
 Build this first as the flagship case study.
 
-### Phase 3 — ReviewPulse AI
+### Phase 3 — ReviewPulse
 Create working analytics/dashboard using safe data.
 
 ### Phase 4 — Delivery360
@@ -666,3 +666,7 @@ The objective is to make a recruiter quickly understand:
 ## TriagePilot completion status — 23 September 2026
 
 TriagePilot is complete as an independent portfolio prototype. Do not expand features without a new request. The case study has seven sections: Overview, Problem, My Approach, Workflow & Architecture, Project Artifacts, What I Would Measure, What I Learned / Next Step. Five artifacts live under `assets/documents/triagepilot/`: charter, requirements, RAID register, workflow/architecture, UAT plan. Validation scenarios are planned and explicitly do not claim stakeholder UAT or production results. Keep the existing demo behavior and backward-compatible URLs. Prioritize case study, demo and artifacts; no prominent source links.
+
+## ReviewPulse V1 completion — 23 September 2026
+
+ReviewPulse is a static independent portfolio prototype with 180 fictional reviews, eight themes, five charts, five evidence-based insight cards, seven opportunities and four artifacts under `assets/documents/reviewpulse/`. The dashboard lives at `projects/reviewpulse/index.html`. All metrics derive from fixtures; theme and sentiment labels are assigned, not model predictions. Prioritization assumptions are explicit. No causal or business-impact claims. V1 has no Python/backend, API, credentials or external model. Stop expansion after V1 unless requested.
