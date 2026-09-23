@@ -660,3 +660,4 @@ The objective is not merely to create a beautiful website.
 The objective is to make a recruiter quickly understand:
 
 **Jalpa can lead complex software delivery, understand engineering deeply, think in product terms, communicate with stakeholders, and use AI/automation to improve how teams operate.**
+
