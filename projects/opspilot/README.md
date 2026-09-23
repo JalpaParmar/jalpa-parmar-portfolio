@@ -1,8 +1,16 @@
-# OpsPilot AI — Version 2
+# TriagePilot AI — Version 2
 
-AI-Powered Support & Engineering Operations. An original, interactive portfolio prototype by Jalpa Parmar.
+AI-Powered Support & Engineering Operations. An independent portfolio prototype by Jalpa Parmar.
+
+**My role:** Technical Project Manager / Product & Solution Design.
+
+**Focus:** workflow design, requirements, architecture, AI governance, delivery thinking, product thinking and prototype validation. The code makes the case study tangible; it is not a claim of a production SaaS business, former-employer implementation or AI/ML engineering role.
 
 [Launch demo](https://jalpaparmar.github.io/jalpa-parmar-portfolio/projects/opspilot/index.html) · [Case study](../../opspilot.html) · [Portfolio](../../index.html)
+
+## Stable URLs
+
+The public brand is **TriagePilot AI**. The existing `projects/opspilot/` directory and `opspilot.html` case-study filename are retained for backward compatibility, so previously shared links still work. The internal paths are not the product name.
 
 ## Problem and hypothesis
 
@@ -10,7 +18,7 @@ Support-to-engineering handoffs often require manual interpretation, rewriting a
 
 ## Features and interview flow
 
-1. Open Overview and choose **Try the workflow** (SUP-101).
+1. Open Overview and choose **Start with SUP-101 →** (SUP-101).
 2. Inspect the original report, simulated analysis, validation scenarios and routing rationale.
 3. Accept suggestions or change summary, priority, queue and owner. Approval creates one Engineering Work Item. Alternatively, return the request with an information note.
 4. Open Engineering Work. Move ENG-101 through In Progress, Blocked, Validation or Resolved.
@@ -27,7 +35,7 @@ data.js → engine.js → app.js → semantic HTML and app.css
 fixtures   pure logic  rendering, forms, hash routing
 ```
 
-`data.js` holds synthetic requests, engineering profiles and category rules. `engine.js` handles analysis, routing, approval validation, one-work-item-per-request, state synchronization, filters and metrics. `app.js` renders the six workspace views and request detail pages. No build or dependency installation is required.
+`data.js` holds synthetic requests, engineering profiles and category rules. `engine.js` handles analysis, routing, approval validation, one-work-item-per-request, state synchronization, filters and metrics. `app.js` renders the six workspace views and request detail pages. The shared `diagram.css` styles the accessible architecture diagram in the case study and About view. No build or dependency installation is required.
 
 The About view and case study also show a **conceptual** vendor-neutral production architecture: Customer Support Platform → Integration Layer → Normalization / Validation → AI Analysis Engine → Human Review → Routing Engine → Work Management Platform → Engineering Workflow → Status Synchronization → Collaboration / Digest Layer → Analytics, with Audit / Observability across the flow. These external systems are not connected.
 
@@ -87,3 +95,21 @@ Tests cover approval gating, corrections, unique work creation, return validatio
 Portfolio implementation created independently using synthetic/sample data and original code. It demonstrates approaches informed by professional experience without reproducing proprietary employer systems, data or confidential workflows.
 
 All people, requests, numbers and timestamps inside this prototype are fictional. Do not enter real customer information in review fields. No outcomes are presented as professional achievements.
+
+## Final presentation polish
+
+The case study presents five sections: problem, solution, live workflow, architecture/responsible AI, and measurement/learning, with an independent-portfolio My Role summary. The Overview introduces a numbered two-minute path. Detailed architecture and implementation explanations remain in this README.
+
+AI suggests. People decide. A production implementation could connect to an evaluated LLM through a secure server-side service. This portfolio prototype intentionally uses deterministic logic for repeatability, transparency and zero credential exposure.
+
+## Project and product framing
+
+Operational problem → Stakeholders → Requirements → MVP scope → Workflow → Risks and dependencies → Prototype → Success metrics → Learning / next iteration.
+
+Modeled stakeholder needs: Customer Support needs ownership/status visibility; Engineering needs actionable context; QA needs reproducible scenarios; Product needs recurring themes; the Technical Project Manager needs blockers, risk and ownership; Engineering Leadership needs capacity context and escalation decisions. These are generic groups, not stakeholders from a real deployment.
+
+In scope: queue, structured triage, summary, classification, suggested priority and validation, routing, human approval, engineering tracking, status visibility, digests and feedback metrics. Out of scope: real integrations, production LLM, authentication/RBAC, production database, SLA prediction, production duplicate detection, real customer communication and automated release decisions.
+
+Risks and controls: incorrect priority → human approval; wrong owner → transparent rationale and override; duplicate work → one-item-per-request guard; over-reliance → editable output and correction measurement. Production data privacy would require minimization, redaction and secure server-side model access. Planning dependencies include field mappings, engineering ownership, QA acceptance criteria, adapter access and security review. No compliance claims are made.
+
+Demo metrics count synthetic session decisions. Potential production measures are hypotheses: I would measure time to first review/owner, reassignment rate, handoff completeness, blocked-work age and correction rate. No improvement is claimed.

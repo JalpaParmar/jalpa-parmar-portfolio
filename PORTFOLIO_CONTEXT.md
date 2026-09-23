@@ -188,7 +188,7 @@ Named technologies may still appear in the **Skills/Experience** section when th
 
 # 7. Featured Portfolio Projects
 
-## Project 1 — OpsPilot AI
+## Project 1 — TriagePilot AI
 
 ### Positioning
 **AI-Powered Support & Engineering Operations Automation**
@@ -207,7 +207,7 @@ Engineering/support organizations spend significant time manually:
 - Preparing team updates
 
 ### Portfolio Solution
-Create an original system called **OpsPilot AI**.
+Create an original system called **TriagePilot AI**.
 
 Conceptual workflow:
 
@@ -461,7 +461,7 @@ Use visually scannable groups:
 
 ## Featured Projects
 Prominent cards for:
-1. OpsPilot AI
+1. TriagePilot AI
 2. ReviewPulse AI
 3. Delivery360
 4. Product Management Case Study
@@ -587,7 +587,7 @@ Codex should work incrementally.
 7. Add appropriate SEO/accessibility.
 8. Verify GitHub Pages compatibility.
 
-### Phase 2 — OpsPilot AI
+### Phase 2 — TriagePilot AI
 Build this first as the flagship case study.
 
 ### Phase 3 — ReviewPulse AI

@@ -15,14 +15,14 @@ Original professional portfolio for Technical Project Management, Product Manage
 - Add a portfolio-safe resume file if you want a Resume button.
 - Replace/expand case-study pages as the working demos and screenshots are created.
 
-OpsPilot AI is a working browser prototype; other project previews remain independent concept studies. All use synthetic/sample data and original artifacts.
+TriagePilot AI is a working browser prototype; other project previews remain independent concept studies. All use synthetic/sample data and original artifacts.
 
 
 ## Phase 1 website
 
 The site uses plain HTML/CSS and a small progressive-enhancement script, with no build step or external font dependencies. Keep the HTML pages and style.css at the repository root. Links are relative so the site works under the GitHub Pages repository path.
 
-OpsPilot includes a case study and working demo; other project pages are concept overviews. A resume download should be added only after a portfolio-safe file is supplied. Professional facts come from PORTFOLIO_CONTEXT.md and the existing site.
+TriagePilot includes a case study and working demo; other project pages are concept overviews. A resume download should be added only after a portfolio-safe file is supplied. Professional facts come from PORTFOLIO_CONTEXT.md and the existing site.
 
 ### Local preview and checks
 Serve the repository root with a static HTTP server (for example, python -m http.server 8000), then visit localhost:8000. Check all four project links and their return links, keyboard Tab navigation and the skip link, and layouts at 320px, 390px, 768px and 1440px. Navigation stays visible without JavaScript. Reduced-motion and print styles are included.
@@ -38,7 +38,7 @@ Keep site.js alongside the root HTML and style.css. JavaScript only enhances the
 
 Resume links are intentionally not rendered until a valid file is supplied; insertion points are documented in index.html. The supplied professional portrait is stored in assets/images. No certification logos, API keys or third-party runtime dependencies are required. Career date ranges are preserved from the previous homepage; no separate dates are invented for roles grouped within those periods. Flutter and React Native remain labeled as exposure.
 
-## OpsPilot AI Version 2
+## TriagePilot AI Version 2
 
 [Launch the interactive demo](projects/opspilot/index.html) · [Case study](opspilot.html) · [Technical README](projects/opspilot/README.md).
 
