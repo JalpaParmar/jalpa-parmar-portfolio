@@ -113,3 +113,7 @@ In scope: queue, structured triage, summary, classification, suggested priority 
 Risks and controls: incorrect priority → human approval; wrong owner → transparent rationale and override; duplicate work → one-item-per-request guard; over-reliance → editable output and correction measurement. Production data privacy would require minimization, redaction and secure server-side model access. Planning dependencies include field mappings, engineering ownership, QA acceptance criteria, adapter access and security review. No compliance claims are made.
 
 Demo metrics count synthetic session decisions. Potential production measures are hypotheses: I would measure time to first review/owner, reassignment rate, handoff completeness, blocked-work age and correction rate. No improvement is claimed.
+
+## Recruiter journey
+
+Public pages prioritize Portfolio → Featured Project → Case Study → Interactive Demo. Source and technical-documentation CTAs are intentionally omitted from recruiter-facing pages. This README remains supporting technical reference; Email and LinkedIn are the primary contact paths.

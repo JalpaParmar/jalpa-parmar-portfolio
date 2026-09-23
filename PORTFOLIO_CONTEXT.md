@@ -439,7 +439,7 @@ The main website should include:
 - View Projects
 - Download Resume
 - LinkedIn
-- GitHub
+- Email
 
 ## About
 Explain the combination of:
@@ -469,7 +469,7 @@ Prominent cards for:
 Each card should eventually have:
 - View Case Study
 - View Demo (where applicable)
-- GitHub / Source
+- No source-code or repository CTAs; GitHub profile may appear subtly in the footer only.
 
 ## Experience
 Use a clean timeline showing career progression.
@@ -481,7 +481,7 @@ Professional cards/badges without falsely implying endorsement.
 Keep relevant to target roles; avoid turning the portfolio into a huge keyword wall.
 
 ## Contact
-Include professional contact paths.
+Prioritize Email and LinkedIn. Recruiter journey: Portfolio → Featured Project → Case Study → Interactive Demo. Code supports the story; it is not the primary recruiter journey.
 
 ---
 
@@ -603,7 +603,7 @@ Build PRD, roadmap, prioritization, metrics and mockups.
 - Project screenshots
 - Architecture visuals
 - Resume link
-- GitHub links
+- Case-study and demo links
 - Demo links
 - Contact
 - Final responsive QA
