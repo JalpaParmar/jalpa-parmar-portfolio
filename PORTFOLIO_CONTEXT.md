@@ -191,7 +191,7 @@ Named technologies may still appear in the **Skills/Experience** section when th
 ## Project 1 — TriagePilot AI
 
 ### Positioning
-**AI-Powered Support & Engineering Operations Automation**
+**AI-Assisted Support & Engineering Operations**
 
 This should become one of the flagship projects.
 
@@ -662,3 +662,7 @@ The objective is to make a recruiter quickly understand:
 **Jalpa can lead complex software delivery, understand engineering deeply, think in product terms, communicate with stakeholders, and use AI/automation to improve how teams operate.**
 
 
+
+## TriagePilot completion status — 23 September 2026
+
+TriagePilot is complete as an independent portfolio prototype. Do not expand features without a new request. The case study has seven sections: Overview, Problem, My Approach, Workflow & Architecture, Project Artifacts, What I Would Measure, What I Learned / Next Step. Five artifacts live under `assets/documents/triagepilot/`: charter, requirements, RAID register, workflow/architecture, UAT plan. Validation scenarios are planned and explicitly do not claim stakeholder UAT or production results. Keep the existing demo behavior and backward-compatible URLs. Prioritize case study, demo and artifacts; no prominent source links.

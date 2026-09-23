@@ -117,3 +117,7 @@ Demo metrics count synthetic session decisions. Potential production measures ar
 ## Recruiter journey
 
 Public pages prioritize Portfolio → Featured Project → Case Study → Interactive Demo. Source and technical-documentation CTAs are intentionally omitted from recruiter-facing pages. This README remains supporting technical reference; Email and LinkedIn are the primary contact paths.
+
+## Portfolio completion
+
+The case study now contains seven sections and five real downloadable artifacts at `../../assets/documents/triagepilot/`. The UAT document is a planned stakeholder validation checklist, not a production test record. Core behavior and synthetic fixtures remain unchanged. TriagePilot is complete for this portfolio scope.
