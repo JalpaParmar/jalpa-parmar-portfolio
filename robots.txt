@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jalpaparmar.github.io/jalpa-parmar-portfolio/sitemap.xml
