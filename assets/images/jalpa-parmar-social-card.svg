@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Jalpa Parmar — Project Manager and Scrum Master</title>
+<desc id="desc">Portfolio preview for a CAPM and PSM I certified project manager and scrum master with 10+ years in software delivery and engineering.</desc>
+<rect width="1200" height="630" fill="#f7f8fb"/>
+<rect x="64" y="58" width="1072" height="514" rx="28" fill="#ffffff" stroke="#dce2ec" stroke-width="2"/>
+<circle cx="1030" cy="165" r="120" fill="#edf1fd"/>
+<circle cx="1030" cy="165" r="78" fill="#dfe7fb"/>
+<rect x="126" y="124" width="9" height="378" rx="5" fill="#304ea5"/>
+<text x="168" y="180" fill="#304ea5" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">JALPA PARMAR</text>
+<text x="168" y="272" fill="#17243c" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700">Project Manager</text>
+<text x="168" y="340" fill="#17243c" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="600">Scrum Master</text>
+<text x="168" y="406" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="25">10+ years across software delivery and engineering</text>
+<rect x="168" y="454" width="164" height="48" rx="24" fill="#edf1fd"/>
+<text x="250" y="485" text-anchor="middle" fill="#304ea5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">CAPM®</text>
+<rect x="348" y="454" width="142" height="48" rx="24" fill="#edf1fd"/>
+<text x="419" y="485" text-anchor="middle" fill="#304ea5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">PSM I</text>
+<text x="168" y="542" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="17">Ahmedabad · India</text>
+<path d="M975 348h96m-48-48 48 48-48 48" fill="none" stroke="#304ea5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
