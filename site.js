@@ -42,3 +42,20 @@
     if (!mobile.matches && document.activeElement === button) links.querySelector('a').focus();
   });
 })();
+
+
+// Count homepage loads as portfolio visits with a public, no-signup counter.
+(() => {
+  const count = document.querySelector('[data-portfolio-visit-count]');
+  if (!count) return;
+
+  const counterUrl = 'https://counterapi.com/api/jalpaparmar.github.io/portfolio-visit/homepage';
+  fetch(counterUrl, { cache: 'no-store', keepalive: true })
+    .then(response => response.ok ? response.json() : null)
+    .then(data => {
+      if (!data || !Number.isFinite(Number(data.value))) return;
+      count.textContent = Number(data.value).toLocaleString() + ' portfolio visits';
+      count.hidden = false;
+    })
+    .catch(() => {});
+})();
