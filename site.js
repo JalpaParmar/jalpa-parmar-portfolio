@@ -42,30 +42,3 @@
     if (!mobile.matches && document.activeElement === button) links.querySelector('a').focus();
   });
 })();
-
-
-// Count homepage loads with CounterAPI's JSONP response so the display does not depend on CORS.
-(() => {
-  const count = document.querySelector('[data-portfolio-visit-count]');
-  if (!count) return;
-
-  const counterUrl = 'https://counterapi.com/api/jalpaparmar.github.io/portfolio-visit/homepage';
-  const script = document.createElement('script');
-  const callbackName = 'portfolioVisitCount_' + Date.now();
-
-  window[callbackName] = data => {
-    if (data && Number.isFinite(Number(data.value))) {
-      count.textContent = Number(data.value).toLocaleString() + ' portfolio visits';
-      count.hidden = false;
-    }
-    delete window[callbackName];
-    script.remove();
-  };
-
-  script.onerror = () => {
-    delete window[callbackName];
-    script.remove();
-  };
-  script.src = counterUrl + '?callback=' + encodeURIComponent(callbackName);
-  document.head.appendChild(script);
-})();
