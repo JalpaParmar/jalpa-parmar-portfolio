@@ -75,3 +75,5 @@ a{color:inherit;text-decoration:none}a:hover{text-decoration:underline;text-unde
 .case-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 .case-links .button{min-height:44px}
 @media(max-width:600px){.looking-for{gap:6px;margin-top:14px}.looking-for span{font-size:10px;padding:6px 9px}.credential-groups{gap:22px}.case-summary{grid-template-columns:1fr;gap:13px;padding:18px;margin-block:14px 28px}.case-summary p{font-size:12px}.case-links .button{flex:1 1 auto}}
+
+.github-click-count{font-size:10px;font-weight:500;color:var(--muted);white-space:nowrap}
