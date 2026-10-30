@@ -44,23 +44,18 @@
 })();
 
 
-// Count clicks on the portfolio's GitHub profile link with a public, no-signup counter.
+// Count homepage loads as portfolio visits with a public, no-signup counter.
 (() => {
-  const count = document.querySelector('[data-github-click-count]');
-  const link = count?.closest('a[href="https://github.com/JalpaParmar"]');
-  if (!count || !link) return;
+  const count = document.querySelector('[data-portfolio-visit-count]');
+  if (!count) return;
 
-  const counterUrl = 'https://counterapi.com/api/jalpaparmar.github.io/github-profile-click/github-profile-footer';
-  fetch(counterUrl + '?readOnly=true', { cache: 'no-store' })
+  const counterUrl = 'https://counterapi.com/api/jalpaparmar.github.io/portfolio-visit/homepage';
+  fetch(counterUrl, { cache: 'no-store', keepalive: true })
     .then(response => response.ok ? response.json() : null)
     .then(data => {
       if (!data || !Number.isFinite(Number(data.value))) return;
-      count.textContent = Number(data.value).toLocaleString() + ' clicks';
+      count.textContent = Number(data.value).toLocaleString() + ' portfolio visits';
       count.hidden = false;
     })
     .catch(() => {});
-
-  link.addEventListener('click', () => {
-    fetch(counterUrl, { mode: 'no-cors', keepalive: true, cache: 'no-store' }).catch(() => {});
-  });
 })();
